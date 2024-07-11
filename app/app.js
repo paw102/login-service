@@ -3,11 +3,11 @@
 const express = require("express");
 const app = express();
 
-const home = require("./routes/home");
+const home = require("./src/routes/home");
 
 
 //앱 세팅
-app.set("views","./views");
+app.set("views","./src/views");
 app.set("view engine", "ejs");
 
 
